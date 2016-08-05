@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6405C71D5478DB00652BAC /* objcDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405C61D5478DB00652BAC /* objcDictionary.h */; };
+		FE6405C71D5478DB00652BAC /* objcDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405C61D5478DB00652BAC /* objcDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6405CE1D5478DB00652BAC /* objcDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6405C31D5478DB00652BAC /* objcDictionary.framework */; };
 		FE6405D31D5478DB00652BAC /* objcDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405D21D5478DB00652BAC /* objcDictionaryTests.m */; };
+		FE6405E01D5478FC00652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6405DD1D5478FC00652BAC /* Cartfile */; };
+		FE6405E11D5478FC00652BAC /* objcDictionary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6405DE1D5478FC00652BAC /* objcDictionary.podspec */; };
+		FE6405E51D54792600652BAC /* NSDictionary+VDMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405E31D54792600652BAC /* NSDictionary+VDMerge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405E61D54792600652BAC /* NSDictionary+VDMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405E41D54792600652BAC /* NSDictionary+VDMerge.m */; };
+		FE6405E91D547A1F00652BAC /* NSDictionary+VDReverse.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405E71D547A1F00652BAC /* NSDictionary+VDReverse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405EA1D547A1F00652BAC /* NSDictionary+VDReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405E81D547A1F00652BAC /* NSDictionary+VDReverse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 		FE6405CD1D5478DB00652BAC /* objcDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6405D21D5478DB00652BAC /* objcDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcDictionaryTests.m; sourceTree = "<group>"; };
 		FE6405D41D5478DB00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6405DD1D5478FC00652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6405DE1D5478FC00652BAC /* objcDictionary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcDictionary.podspec; sourceTree = "<group>"; };
+		FE6405DF1D5478FC00652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6405E31D54792600652BAC /* NSDictionary+VDMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+VDMerge.h"; sourceTree = "<group>"; };
+		FE6405E41D54792600652BAC /* NSDictionary+VDMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+VDMerge.m"; sourceTree = "<group>"; };
+		FE6405E71D547A1F00652BAC /* NSDictionary+VDReverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+VDReverse.h"; sourceTree = "<group>"; };
+		FE6405E81D547A1F00652BAC /* NSDictionary+VDReverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+VDReverse.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 				FE6405C51D5478DB00652BAC /* objcDictionary */,
 				FE6405D11D5478DB00652BAC /* objcDictionaryTests */,
 				FE6405C41D5478DB00652BAC /* Products */,
+				FE6405DD1D5478FC00652BAC /* Cartfile */,
+				FE6405DE1D5478FC00652BAC /* objcDictionary.podspec */,
+				FE6405DF1D5478FC00652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +89,10 @@
 			children = (
 				FE6405C61D5478DB00652BAC /* objcDictionary.h */,
 				FE6405C81D5478DB00652BAC /* Info.plist */,
+				FE6405E31D54792600652BAC /* NSDictionary+VDMerge.h */,
+				FE6405E41D54792600652BAC /* NSDictionary+VDMerge.m */,
+				FE6405E71D547A1F00652BAC /* NSDictionary+VDReverse.h */,
+				FE6405E81D547A1F00652BAC /* NSDictionary+VDReverse.m */,
 			);
 			path = objcDictionary;
 			sourceTree = "<group>";
@@ -93,6 +113,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405E91D547A1F00652BAC /* NSDictionary+VDReverse.h in Headers */,
+				FE6405E51D54792600652BAC /* NSDictionary+VDMerge.h in Headers */,
 				FE6405C71D5478DB00652BAC /* objcDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405E11D5478FC00652BAC /* objcDictionary.podspec in Resources */,
+				FE6405E01D5478FC00652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405EA1D547A1F00652BAC /* NSDictionary+VDReverse.m in Sources */,
+				FE6405E61D54792600652BAC /* NSDictionary+VDMerge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
